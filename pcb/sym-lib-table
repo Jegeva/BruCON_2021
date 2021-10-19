@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "gasmask")(type "KiCad")(uri "${KIPRJMOD}/gasmask.kicad_sym")(options "")(descr ""))
+  (lib (name "LM3658SD")(type "Legacy")(uri "${KIPRJMOD}/LM3658SD.lib")(options "")(descr ""))
+)

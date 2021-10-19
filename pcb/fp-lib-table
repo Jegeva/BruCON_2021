@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "gasmask_pcb")(type "KiCad")(uri "$(KIPRJMOD)/gasmask_pcb.pretty")(options "")(descr ""))
+  (lib (name "brucon_badge")(type "KiCad")(uri "${KIPRJMOD}/brucon_badge.pretty")(options "")(descr ""))
+)

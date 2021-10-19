@@ -1,0 +1,85 @@
+[
+    {
+	"menutitle":"Schedule",
+	"rank":0,
+	"function":null,
+	"submenus":[
+	    {
+		"menutitle":"07/10",
+		"rank":0,
+		"function":"sched03",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"08/10",
+		"rank":1,
+		"function":"sched04",
+		"submenus":null
+	    }
+	]
+    },
+    {
+	"menutitle":"Map",
+	"rank":1,
+	"function":null,
+	"submenus":[
+	    {
+		"menutitle":"Map Westvleteren",
+		"rank":0,
+		"function":"MapWest",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Map Novotel",
+		"rank":1,
+		"function":"MapNovo",
+		"submenus":null
+	    }
+	]
+    },
+    {
+	"menutitle":"Option",
+        "rank":2,
+        "function":null,
+        "submenus":
+
+	[
+	    {
+		"menutitle":"System Info",
+		"rank":0,
+		"function":"SystemInfo",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"EraseKeys",
+		"rank":1,
+		"function":"EraseKeys",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Reboot",
+		"rank":2,
+		"function":"Reboot",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Test",
+		"rank":3,
+		"function":"testF",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Test too",
+		"rank":4,
+		"function":"testF1",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Test too too",
+		"rank":5,
+		"function":"testF2",
+		"submenus":null
+	    }
+	]
+    }
+]

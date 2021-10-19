@@ -1,0 +1,18 @@
+### Module positions - created on Wed Sep 15 16:12:14 2021 ###
+### Printed by Pcbnew version (5.99.0-10282-g296a9df530)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+G***      LOGO      LOGO                25.7525   -58.8963    0.0000  bottom
+G***      LOGO      LOGO               189.2475   -72.8537  180.0000  bottom
+G***      LOGO      LOGO               241.7000   -58.8843    0.0000  bottom
+G***      LOGO      LOGO               189.3000  -217.3657  180.0000  bottom
+G***      LOGO      LOGO                25.7000   -58.8843    0.0000  bottom
+G***      LOGO      LOGO               189.3000   -72.8657  180.0000  bottom
+G***      LOGO      LOGO               241.7525   -58.8963    0.0000  bottom
+G***      LOGO      LOGO                25.7525  -203.3963    0.0000  bottom
+G***      LOGO      LOGO                25.7000  -203.3843    0.0000  bottom
+G***      LOGO      LOGO               241.7525  -203.3963    0.0000  bottom
+G***      LOGO      LOGO               189.2475  -217.3537  180.0000  bottom
+G***      LOGO      LOGO               241.7000  -203.3843    0.0000  bottom
+## End

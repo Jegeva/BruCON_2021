@@ -1,0 +1,91 @@
+[
+    {
+	"menutitle":"Schedule",
+	"rank":0,
+	"function":null,
+	"submenus":[
+	    {
+		"menutitle":"07/10",
+		"rank":0,
+		"function":"sched03",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"08/10",
+		"rank":1,
+		"function":"sched04",
+		"submenus":null
+	    }
+	]
+    },
+    {
+	"menutitle":"Map",
+	"rank":1,
+	"function":null,
+	"submenus":[
+	    {
+		"menutitle":"Map Westvleteren",
+		"rank":0,
+		"function":"MapWest",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Map Novotel",
+		"rank":1,
+		"function":"MapNovo",
+		"submenus":null
+	    }
+	]
+    },
+    {
+	"menutitle":"Option",
+        "rank":2,
+        "function":null,
+        "submenus":
+
+	[
+	    {
+		"menutitle":"System Info",
+		"rank":0,
+		"function":"SystemInfo",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Reboot",
+		"rank":1,
+		"function":"Reboot",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Measure Alcool",
+		"rank":2,
+		"function":"VivaLaVodka",
+		"submenus":null
+	    },	    
+	    {
+		"menutitle":"Measure Pollution",
+		"rank":3,
+		"function":"VivaLaToothpaste",
+		"submenus":null
+	    },
+	    {
+		"menutitle":"Led Showoff",
+		"rank":4,
+		"function":"testF2",
+		"submenus":null
+	    },
+    	    {
+		"menutitle":"Change Led Col",
+		"rank":5,
+		"function":"testF",
+		"submenus":null
+	    },
+       	    {
+		"menutitle":"Change Led Pow",
+		"rank":6,
+		"function":"testF1",
+		"submenus":null
+	    }
+	]
+    }
+]

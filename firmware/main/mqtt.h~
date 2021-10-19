@@ -1,0 +1,7 @@
+#ifndef __BRUCON_BADGE_MQTT_H
+#define __BRUCON_BADGE_MQTT_H
+
+#include "url.h"
+
+
+#endif

@@ -1,0 +1,201 @@
+menu "Brucon badge : Hardware version/config"
+
+menu "LCD pinout"
+config NOKIA6100_LCD_GPIO_SCK
+    int "LCD Clock Pin"
+	range 0 34
+	default 19
+	help
+		GPIO number (IOxx) to toggle clock.
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+		must be spi capable or the source chqnged for bitbanging
+config NOKIA6100_LCD_GPIO_DIO
+    int "LCD Data Pin"
+	range 0 34
+	default 23
+	help
+		GPIO number (IOxx) to data.
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+		must be spi capable or the source chqnged for bitbanging
+config NOKIA6100_LCD_GPIO_CS
+    int "LCD Chip Select Pin"
+	range 0 34
+	default 22
+	help
+		GPIO number (IOxx) to chipselect screen.
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+		must be spi capable or the source chqnged for bitbanging
+config NOKIA6100_LCD_GPIO_RST
+    int "LCD Reset Pin"
+	range 0 34
+	default 18
+	help
+		GPIO number (IOxx) to reset screen.
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+config NOKIA6100_LCD_GPIO_BACKLIGHT
+    int "LCD Backlight enable pin"
+	range 0 34
+	default 21
+	help
+		GPIO number (IOxx) to toggle backlight.
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+endmenu
+
+menu "hardware version"
+choice
+    prompt "Hardware version"
+
+config HARDWARE_2020
+       bool "2020"
+
+config HARDWARE_2019
+       bool "2019"
+
+config HARDWARE_2018
+       bool "2018"
+
+endchoice
+
+                    
+config CROSS_PIN_BUTTON_RIGHT
+    int "Button RIGHT pin"
+    range 33 33 if HARDWARE_2018
+    default 33 if HARDWARE_2018
+    range 14 14 if HARDWARE_2019
+    default 14 if HARDWARE_2019
+    range 14 14 if HARDWARE_2020
+    default 14 if HARDWARE_2020
+    help
+		GPIO number (IOxx) for direction cross RIGHT button.
+
+config CROSS_PIN_BUTTON_LEFT
+    int "Button LEFT pin"
+	range 26 26 if HARDWARE_2018
+	default 26 if HARDWARE_2018
+    range 13 13 if HARDWARE_2019
+    default 13 if HARDWARE_2019
+        range 13 13 if HARDWARE_2020
+    default 13 if HARDWARE_2020
+    help
+		GPIO number (IOxx) for direction cross LEFT button.
+
+config CROSS_PIN_BUTTON_UP
+    int "Button UP pin"
+	range 27 27 if HARDWARE_2018
+	default 27 if HARDWARE_2018
+    range 12 12 if HARDWARE_2019
+    default 12 if HARDWARE_2019
+        range 12 12 if HARDWARE_2020
+    default 12 if HARDWARE_2020
+	help
+		GPIO number (IOxx) for direction cross UP button.
+
+config CROSS_PIN_BUTTON_DOWN
+    int "Button DOWN pin"
+	range 25 25 if HARDWARE_2018
+	default 25 if HARDWARE_2018
+    range 27 27 if HARDWARE_2019
+    default 27 if HARDWARE_2019
+        range 27 27 if HARDWARE_2020
+    default 27 if HARDWARE_2020
+	help
+		GPIO number (IOxx) for direction cross DOWN button.
+
+config CROSS_PIN_BUTTON_A
+    int "Button A pin"
+	range 17 17 if HARDWARE_2018
+	default 17 if HARDWARE_2018
+    range 32 32 if HARDWARE_2019
+    default 32 if HARDWARE_2019
+        range 32 32 if HARDWARE_2020
+    default 32 if HARDWARE_2020
+	help
+		GPIO number (IOxx) for A button.
+
+config CROSS_PIN_BUTTON_B
+    int "Button B pin"
+    range 16 16 if HARDWARE_2018
+    default 16 if HARDWARE_2018
+    range 33 33 if HARDWARE_2019    
+    default 33 if HARDWARE_2019
+    range 33 33 if HARDWARE_2020    
+    default 33 if HARDWARE_2020
+	help
+		GPIO number (IOxx) for B button.
+
+if HARDWARE_2018
+config NCHARGIN_GPIO_PIN
+    int "not chargin gpio pin"
+	range 34 34
+	default 34 
+	help
+		GPIO number (IOxx) for the not chargin net.
+endif
+
+config BAT_ADC_PIN
+    int "Pin for the battery load ADC pin"
+    range 32 32 if HARDWARE_2018
+    default 32 if HARDWARE_2018
+    range 35 35 if HARDWARE_2019
+    default 35 if HARDWARE_2019
+    range 35 35 if HARDWARE_2020
+    default 35 if HARDWARE_2020
+    
+	help
+		Pin for the battery load ADC pin
+
+
+if HARDWARE_2019
+config USB_GPIO_PIN
+       int "GPIO to see if usb is plugged"
+       range 34 34 if HARDWARE_2019
+       default 34 
+config STAT1_BAT_GPIO_PIN
+       int "GPIO PIN STAT1"
+       range 36 36 
+       default 36
+config STAT2_BAT_GPIO_PIN
+       int "GPIO PIN STAT2"
+       range 39 39 
+       default 39
+endif
+
+if HARDWARE_2020
+config USB_GPIO_PIN
+       int "GPIO to see if usb is plugged"
+       range 34 34 
+       default 34
+config STAT1_BAT_GPIO_PIN
+       int "GPIO PIN STAT1"
+       range 36 36 
+       default 36
+config STAT2_BAT_GPIO_PIN
+       int "GPIO PIN STAT2"
+       range 39 39 
+       default 39
+
+config LED_R_PIN
+       int "GPIO PIN R"
+       range 5 5 
+       default 5
+config LED_G_PIN
+       int "GPIO PIN G"
+       range 17 17  
+       default 17
+config LED_B_PIN
+       int "GPIO PIN B"
+       range 16 16 
+       default 16
+config HEATER_MOSFET_PIN
+       int "GPIO Heater mosfet"
+       range 4 4 
+       default 4
+endif
+
+
+
+
+
+endmenu
+
+endmenu

@@ -1,0 +1,56 @@
+Stat change 34:ab:95:6b:19:98 C None -> f0:9c:e9:0c:3e:14
+19
+/topic/f0:9c:e9:0c:3e:14 received message =34:ab:95:69:98:f8|D q 0
+Stat change 34:ab:95:69:98:f8 D f0:9c:e9:0c:3e:14 -> f0:9c:e9:0c:3e:14
+/topic/f0:9c:e9:87:c1:14 received message =34:ab:95:6b:1a:38|D q 0
+Stat change 34:ab:95:6b:1a:38 D f0:9c:e9:87:c1:14 -> f0:9c:e9:87:c1:14
+/topic/f0:9c:e9:0c:3e:14 received message =34:ab:95:6b:19:98|D q 0
+Stat change 34:ab:95:6b:19:98 D f0:9c:e9:0c:3e:14 -> f0:9c:e9:0c:3e:14
+/topic/CONNECT received message =c4:dd:57:c1:26:20/f0:9c:e9:87:c1:d4 q 0
+CONNECTION c4:dd:57:c1:26:20 f0:9c:e9:87:c1:d4
+/topic/f0:9c:e9:87:c1:d4 received message =c4:dd:57:c1:26:20|C q 0
+Stat change c4:dd:57:c1:26:20 C None -> f0:9c:e9:87:c1:d4
+3
+/topic/f0:9c:e9:87:c1:d4 received message =c4:dd:57:c1:26:20|D q 0
+Stat change c4:dd:57:c1:26:20 D f0:9c:e9:87:c1:d4 -> f0:9c:e9:87:c1:d4
+/topic/CONNECT received message =c4:dd:57:c1:26:2c/f0:9c:e9:87:c1:14 q 0
+CONNECTION c4:dd:57:c1:26:2c f0:9c:e9:87:c1:14
+/topic/f0:9c:e9:87:c1:14 received message =c4:dd:57:c1:26:2c|C q 0
+Stat change c4:dd:57:c1:26:2c C None -> f0:9c:e9:87:c1:14
+10
+/topic/f0:9c:e9:87:c1:14 received message =c4:dd:57:c1:26:2c|M q 0
+Stat change c4:dd:57:c1:26:2c M f0:9c:e9:87:c1:14 -> f0:9c:e9:87:c1:14
+/topic/CONNECT received message =34:ab:95:69:8a:2c/e0:1c:41:72:a7:94 q 0
+CONNECTION 34:ab:95:69:8a:2c e0:1c:41:72:a7:94
+/topic/e0:1c:41:72:a7:94 received message =34:ab:95:69:8a:2c|C q 0
+Stat change 34:ab:95:69:8a:2c C e0:1c:41:72:a7:94 -> e0:1c:41:72:a7:94
+17
+/topic/f0:9c:e9:87:c1:14 received message =c4:dd:57:c1:26:2c|D q 0
+Stat change c4:dd:57:c1:26:2c D f0:9c:e9:87:c1:14 -> f0:9c:e9:87:c1:14
+/topic/CONNECT received message =34:ab:95:64:e6:8c/f0:9c:e9:0c:3e:14 q 0
+CONNECTION 34:ab:95:64:e6:8c f0:9c:e9:0c:3e:14
+/topic/f0:9c:e9:0c:3e:14 received message =34:ab:95:64:e6:8c|C q 0
+Stat change 34:ab:95:64:e6:8c C None -> f0:9c:e9:0c:3e:14
+18
+/topic/f0:9c:e9:0c:3e:14 received message =34:ab:95:64:e6:8c|D q 0
+Stat change 34:ab:95:64:e6:8c D f0:9c:e9:0c:3e:14 -> f0:9c:e9:0c:3e:14
+rc: 0
+/topic/CONNECT received message =34:ab:95:6b:1b:28/f0:9c:e9:0c:3e:14 q 0
+CONNECTION 34:ab:95:6b:1b:28 f0:9c:e9:0c:3e:14
+/topic/CONNECT received message =34:ab:95:6b:1a:28/f0:9c:e9:0c:3e:14 q 0
+CONNECTION 34:ab:95:6b:1a:28 f0:9c:e9:0c:3e:14
+/topic/CONNECT received message =c4:dd:57:c1:26:48/e0:1c:41:72:a7:14 q 0
+CONNECTION c4:dd:57:c1:26:48 e0:1c:41:72:a7:14
+/topic/CONNECT received message =34:ab:95:6b:1a:28/e0:1c:41:72:a8:94 q 0
+CONNECTION 34:ab:95:6b:1a:28 e0:1c:41:72:a8:94
+/topic/CONNECT received message =34:ab:95:6b:1a:28/e0:1c:41:72:a8:94 q 0
+CONNECTION 34:ab:95:6b:1a:28 e0:1c:41:72:a8:94
+/topic/CONNECT received message =c4:dd:57:c1:45:7c/f0:9c:e9:0c:3e:14 q 0
+CONNECTION c4:dd:57:c1:45:7c f0:9c:e9:0c:3e:14
+/topic/CONNECT received message =c4:dd:57:c1:26:48/e0:1c:41:72:a7:14 q 0
+CONNECTION c4:dd:57:c1:26:48 e0:1c:41:72:a7:14
+/topic/CONNECT received message =34:ab:95:6b:1b:28/f0:9c:e9:0c:3e:14 q 0
+CONNECTION 34:ab:95:6b:1b:28 f0:9c:e9:0c:3e:14
+/topic/CONNECT received message =c4:dd:57:c1:45:7c/f0:9c:e9:0c:3e:14 q 0
+CONNECTION c4:dd:57:c1:45:7c f0:9c:e9:0c:3e:14
+
