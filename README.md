@@ -1,17 +1,18 @@
-#BruCON 2021
+BruCON 2021
+=
+This is the firmware and pcb for brucon badge 
 
-This is the firmware and pcb for brucon badge as of
-released at the conference 
+as of released at the conference **ie. including** :
 
-ie. including :
+* the mistake that needs a bodge (vbat to the sensor, backlights and leds missing a bit of trace) and 
+* the mistake with the connector (don't use the one refed in the kicad docs, it is keyed down instead of up)
 
-*the mistake that needs a bodge (vbat to the sensor, backlights and leds missing a bit of trace) and 
-*the mistake with the connector (don't use the one refed in the kicad docs, it is keyed down instead of up)
+Licenses :
+=
 
-##Licenses :
+-my (**ugly**) firmware code and the PCB are CERN-OHL-P
 
--my (ugly) firmware code and the PCB are CERN-OHL-P
+-the gasmask art is CC/NA by Ray Harvey
 
--the art is CC/NA by Ray Harvey
-
--Espressif stuff : (see here)[https://docs.espressif.com/projects/esp-idf/en/latest/esp32/COPYRIGHT.html]
+-Espressif stuff : 
+[see here](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/COPYRIGHT.html)
